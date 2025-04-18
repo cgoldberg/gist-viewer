@@ -68,7 +68,7 @@ const Gists = {
       console.debug(`Fetching gists: ${url}`);
       await this.renderGists(url);
 
-      this.sortBy("description");
+      //this.sortBy("description");
     },
     contains(value, filter) {
       if (filter === "") {
